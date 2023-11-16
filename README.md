@@ -2,19 +2,23 @@ This script serves as a tool for organizing files, categorizing them, and moving
 Let's go through the main components of the code:
 
 File Type Definitions:
+
 TYPE_FILE is a dictionary that defines categories for different file types based on their extensions 
 (e.g., images, videos, documents, audio, archives, and other). The file extensions associated with 
 each category are listed as tuples.
 
 Cyrillic to Latin Transliteration:
+
 The MAP dictionary is used for transliterating Cyrillic characters to Latin characters. 
 This is often useful for creating readable filenames.
 
 Normalization Function:
+
 The normalize function takes a text input, replaces non-alphanumeric characters with underscores, 
 and applies transliteration.
 
 Functions for Working with Folders and Files:
+
 add_folder: Creates a subfolder with a specified name within a given path. Returns a Path object representing 
 the created or existing subfolder.
 move_files: Processes a dictionary of sorted file paths and moves them to appropriate folders based on their categories. 
@@ -23,6 +27,7 @@ sorted_paths_by_file_types: Takes a list of file paths and categorizes them base
 Returns a dictionary where keys represent file types, and values are lists of paths belonging to each type.
 
 File Search Function:
+
 search_files: Recursively explores a specified directory, identifies files excluding hidden ones, and optionally skips directories listed 
 in TYPE_FILE when the ignore_folder parameter is set to True. Returns a list of paths for the located files.
 
