@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: clean-folder
+Version: 1
+Summary: This code automatically organizes files in a specified directory based on their types and categories. It uses predefined dictionaries for classifying files into groups such as images, videos, documents, audio, archives, and others. Additionally, it includes functions for normalizing file names, handling duplicates, moving files to appropriate folders, and searching for files in the specified directory.
+Home-page: https://github.com/Nyambevos/Sorter_for_files
+Author: Nuambevos
+Author-email: ruslan.bilokoniuk@gmail.com
+License: MIT
