@@ -7,4 +7,4 @@ setup(name='clean_folder',
       author='Nuambevos',
       author_email='ruslan.bilokoniuk@gmail.com',
       license='MIT',
-      entry_points={'console_scripts': ['clean_folder = clean_folder.clean:main']})
+      entry_points={'console_scripts': ['clean-folder = clean_folder.clean:main']})
